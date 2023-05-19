@@ -1,8 +1,10 @@
-# Homework 20 - React Portfolio
+<!-- Using this README format -->
+
+# Homework 21 - Book Search Engine
 
 ## Description
 
-This is a React-based application website and portfolio that allows potential employers to view my work samples from the Bootcamp.
+This repository contains a book search engine application that allows users to search for books, create an account, log in, save books to their account, and manage their saved books.
 
 ## Table of Contents
 
@@ -30,15 +32,29 @@ This command will install all the necessary dependencies required to run the por
 
 ## Usage
 
-The portfolio features a header with navigation titles for the About Me, Portfolio, Contact, and Resumé sections, which highlight the current section. Clicking a title presents the corresponding section without reloading.
+The book search engine provides the following functionalities:
 
-The About Me page features my picture along with a short biography, while the portfolio page features examples of my my projects. The Resumé page features a link to download my resumé along with highlighted skills on the page. Finally, the Contact page features a message box to send me an email. 
-
-At the bottom of the page, the Footer contains links to my LinkedIn profile, my GitHub profile, and my Instagram page. 
+- When the search engine is loaded, the user is presented with a menu that includes the options "Search for Books" and "Login/Signup," an input field to search for books, and a submit button.
+- Clicking on the "Search for Books" menu option displays an input field to search for books and a submit button.
+- If the user is not logged in and performs a search by entering a search term in the input field and clicking the submit button, several search results are presented. Each result includes a book's title, author, description, image, and a link to that book on the Google Books site.
+- Clicking on the "Login/Signup" menu option opens a modal on the screen with a toggle between the options to log in or sign up.
+- If the toggle is set to "Signup," the user is presented with three inputs for a username, an email address, and a password, as well as a signup button.
+- If the toggle is set to "Login," the user is presented with two inputs for an email address and a password, as well as a login button.
+- If the user enters a valid email address, creates a password, and clicks on the signup button, their user account is created, and they are logged in to the site.
+- If the user enters their account's email address and password and clicks on the login button, the modal closes, and they are logged in to the site.
+- When the user is logged in to the site, the menu options change to "Search for Books," an option to view their saved books, and "Logout."
+- If the user is logged in and performs a search by entering a search term in the input field and clicking the submit button, several search results are presented. Each result includes a book's title, author, description, image, a link to that book on the Google Books site, and a button to save the book to their account.
+- Clicking on the "Save" button on a book saves that book's information to the user's account.
+- Clicking on the option to view their saved books presents the user with all the books they have saved to their account. Each saved book includes the book's title, author, description, image, a link to that book on the Google Books site, and a button to remove the book from their account.
+- Clicking on the "Remove" button on a book deletes that book from the user's saved books list.
+- Clicking on the "Logout" button logs the user out of the site and presents them with a menu containing the options "Search for Books" and "Login/Signup," an input field to search for books, and a submit button.
 
 ## Contributing
 
-I am greatful to my classmate Harold Gonzales for walking me through this assignment and allowing me to use portions of his code as a starting point. Additionally, I used W3 Schools and Mozilla Developer Network to fills in the gaps and flesh out my portfolio. 
+Thank you to our instructor Bryan for providing the starter code and and our TA Shawn for all his help and guidance.
 
 ## Additional Information
 
+GitHub Repository:
+
+Heroku Link:
