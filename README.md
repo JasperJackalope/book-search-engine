@@ -1,5 +1,3 @@
-<!-- Using this README format -->
-
 # Homework 21 - Book Search Engine
 
 ## Description
@@ -49,12 +47,33 @@ The book search engine provides the following functionalities:
 - Clicking on the "Remove" button on a book deletes that book from the user's saved books list.
 - Clicking on the "Logout" button logs the user out of the site and presents them with a menu containing the options "Search for Books" and "Login/Signup," an input field to search for books, and a submit button.
 
+Here are images of the sites in use:
+
+- Homepage:
+![Alt Text](./images/1.jpg)
+
+- Search Results:
+![Alt Text](./images/2.jpg)
+
+- Sign Up:
+![Alt Text](./images/3.jpg)
+
+- Log In:
+![Alt Text](./images/4.jpg)
+
+- Save Book Button:
+![Alt Text](./images/5.jpg)
+
+- Saved Book Library:
+![Alt Text](./images/6.jpg)
+
+
 ## Contributing
 
 Thank you to our instructor Bryan for providing the starter code and and our TA Shawn for all his help and guidance.
 
 ## Additional Information
 
-GitHub Repository:
+GitHub Repository: https://github.com/JasperJackalope/book-search-engine
 
 Heroku Link:
