@@ -44,4 +44,4 @@ const startApolloServer = async (typeDefs, resolvers) => {
 // Call the async function to start the server
   startApolloServer(typeDefs, resolvers);
 
-  // Changes to redeploy
+  // Changes to redeploy, so that we can restore the previous configuration    after   a successful deployment   of the application    before    deployment           
